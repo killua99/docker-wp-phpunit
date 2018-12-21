@@ -6,6 +6,4 @@ RUN apk add --no-cache \
   subversion \
   wget
 
-ENTRYPOINT []
-
-CMD /bin/true
+CMD ["/bin/true"]
